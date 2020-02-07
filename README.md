@@ -15,7 +15,7 @@ The package has been tested on CentOS Linux release 7.6 with the following softw
 Python 3.7, PyTorch 1.2, Numpy 1.16, Pickle 4.0
 
 ## Dataset
-The chromatin imaging data were downloaded from [Bintu et. al., Science, 2018, 362, eaau1783](https://github.com/BogdanBintu/ChromatinImaging). The distance map was then binarized to contact map provided in the `data` directory. 90-kb resolution was used and there are 378 chromatin contacts for the studies region.
+The chromatin imaging data were downloaded from [Bintu et. al., Science, 2018, 362, eaau1783](https://github.com/BogdanBintu/ChromatinImaging). The distance map was then binarized to contact map provided in the [`./data/`](./data) directory. 90-kb resolution was used and there are 378 chromatin contacts for the studies region.
 
 * [`./data/HCT116/`](./data/HCT116/): contact matrixes for wild-type cell
 
